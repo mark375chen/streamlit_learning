@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 
-def createPickle():
+def create_pickle():
     pd.set_option('display.max_columns', None)
     pd.set_option('display.max_rows', None)
     df_churn = pd.read_csv(r'C:\Users\markz\PycharmProjects\streamlit_learning\src\telco_churn.csv')
