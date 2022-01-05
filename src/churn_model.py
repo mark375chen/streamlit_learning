@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import pandas as pd
 
 from sklearn.ensemble import RandomForestClassifier
@@ -17,4 +15,3 @@ df = df_churn.copy()
 df.fillna(0, inplace=True)
 
 print(df.head())
->>>>>>> c41e081e3c4815d47ad4dd9bde07e32bedfc14b7
